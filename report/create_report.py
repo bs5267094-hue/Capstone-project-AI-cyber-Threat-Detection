@@ -22,8 +22,8 @@ from reportlab.platypus import (SimpleDocTemplate, Paragraph, Table, TableStyle,
                                 Spacer, Image, PageBreak, KeepTogether, HRFlowable)
 
 parser = argparse.ArgumentParser(description="Create the mini-project technical report")
-parser.add_argument("--name", default="Aditya Mishra")
-parser.add_argument("--roll", default="2301730258")
+parser.add_argument("--name", default="Balvinder Singh")
+parser.add_argument("--roll", default="2301730230")
 args = parser.parse_args()
 
 ROOT = Path(__file__).resolve().parents[1]
